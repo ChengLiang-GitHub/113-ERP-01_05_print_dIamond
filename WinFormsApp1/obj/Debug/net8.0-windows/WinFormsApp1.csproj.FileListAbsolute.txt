@@ -1,0 +1,33 @@
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\cheng liang\洪福成\c_洪福成老師\作業\作業1\1.3菱形(單Label)一組迴圈(Extra)_113ERP_05_謝政良\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Form1.resources
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
