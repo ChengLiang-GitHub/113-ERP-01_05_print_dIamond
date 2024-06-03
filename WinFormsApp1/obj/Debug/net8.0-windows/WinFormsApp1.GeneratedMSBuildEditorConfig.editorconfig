@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WinFormsApp1
-build_property.ProjectDir = D:\git_repository\113-ERP-01_05_print_dIamond\WinFormsApp1\
+build_property.ProjectDir = D:\git_repository\113-ERP-01_05_print_diamond\WinFormsApp1\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
