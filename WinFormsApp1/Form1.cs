@@ -33,7 +33,9 @@ namespace WinFormsApp1
             for (int i = 0, j = diamondSize - 1, k = 1; i < (lineNum); i++, j--, k = ((j >= 0) ? k + 2 : k - 2))
             {
                 for (int n = 0; n < Math.Abs(j) + k; n++)
-                    showLB.Text += n < Math.Abs(j) ? "   " : (n- Math.Abs(j)) % 2 == 1 ? "   " : "★";
+                    showLB.Text += n < Math.Abs(j) ? "   " : (n - Math.Abs(j)) % 2 == 1 ? "   " : "★";
+                // for (int n = 0; n < k; n++)
+                //    showLB.Text += n % 2 == 0 ? "   " : "★";
                 showLB.Text += "\n";
                 Console.WriteLine(k);
             }
@@ -68,16 +70,14 @@ namespace WinFormsApp1
 
             for (int i = 0; i < avgTempInWeek.GetLength(0); i++)
             {
-                if (Math.Abs(avgTempInWeek[i, 0]) > Math.Abs(avgTempInWeek[i, 1]))
-                {
-                    avgHighTpInWeek += Math.Ceiling(Math.Abs(avgTempInWeek[i, 0]));
-                    avgLowTpInWeek += Math.Floor(Math.Abs(avgTempInWeek[i, 1]));
-                }
-                else
-                {
-                    avgHighTpInWeek += Math.Ceiling(Math.Abs(avgTempInWeek[i, 1]));
-                    avgLowTpInWeek += Math.Floor(Math.Abs(avgTempInWeek[i, 0]));
-                }
+
+                avgHighTpInWeek += Math.Ceiling(Math.Max(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1])));
+                avgLowTpInWeek += Math.Floor(Math.Min(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1])));
+                char sign1 = (avgTempInWeek[i, 0] < 0) ? '-' : ' ';
+                char sign2 = (avgTempInWeek[i, 1] < 0) ? '-' : ' ';
+                temperatureRTB.Text += "Max is " + sign1 + $"{Math.Max(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1]))} ({Math.Ceiling(Math.Max(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1])))})" +
+                                                            " Min is " + sign2 + $"{Math.Min(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1]))} ({Math.Floor(Math.Min(Math.Abs(avgTempInWeek[i, 0]), Math.Abs(avgTempInWeek[i, 1])))})" + "\n" +
+                                                            $"高溫平均 : {avgHighTpInWeek /( i + 1)}" + $" 低溫平均 : {avgLowTpInWeek / (i + 1)}" + "\n";
 
             }
             temperatureRTB.Text += "H : " + (avgHighTpInWeek / avgTempInWeek.GetLength(0)).ToString("00") + "\n"
