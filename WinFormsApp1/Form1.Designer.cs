@@ -38,6 +38,7 @@
             label3 = new Label();
             shapeSelectCB = new ComboBox();
             avgWeekTPg = new TabPage();
+            callAvgFunBtn = new Button();
             hiddenBTN = new Button();
             panel1 = new Panel();
             temperatureRTB = new RichTextBox();
@@ -46,11 +47,20 @@
             tabPage2 = new TabPage();
             ltRTB = new RichTextBox();
             ltBTN = new Button();
+            tabPage3 = new TabPage();
+            szOfShoesRTB = new RichTextBox();
+            label5 = new Label();
+            label4 = new Label();
+            szOfShoesCB = new ComboBox();
+            genderCB = new ComboBox();
+            dataGridView1 = new DataGridView();
             tabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             avgWeekTPg.SuspendLayout();
             panel1.SuspendLayout();
             tabPage2.SuspendLayout();
+            tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -106,6 +116,7 @@
             tabControl1.Controls.Add(tabPage1);
             tabControl1.Controls.Add(avgWeekTPg);
             tabControl1.Controls.Add(tabPage2);
+            tabControl1.Controls.Add(tabPage3);
             tabControl1.Location = new Point(12, 12);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
@@ -152,6 +163,7 @@
             // 
             // avgWeekTPg
             // 
+            avgWeekTPg.Controls.Add(callAvgFunBtn);
             avgWeekTPg.Controls.Add(hiddenBTN);
             avgWeekTPg.Controls.Add(panel1);
             avgWeekTPg.Controls.Add(showBTN);
@@ -163,6 +175,16 @@
             avgWeekTPg.TabIndex = 1;
             avgWeekTPg.Text = "一周均溫";
             avgWeekTPg.UseVisualStyleBackColor = true;
+            // 
+            // callAvgFunBtn
+            // 
+            callAvgFunBtn.Location = new Point(26, 116);
+            callAvgFunBtn.Name = "callAvgFunBtn";
+            callAvgFunBtn.Size = new Size(94, 23);
+            callAvgFunBtn.TabIndex = 4;
+            callAvgFunBtn.Text = "call avgFun";
+            callAvgFunBtn.UseVisualStyleBackColor = true;
+            callAvgFunBtn.Click += callAvgFunBtn_Click;
             // 
             // hiddenBTN
             // 
@@ -241,6 +263,75 @@
             ltBTN.UseVisualStyleBackColor = true;
             ltBTN.Click += ltBTN_Click;
             // 
+            // tabPage3
+            // 
+            tabPage3.Controls.Add(dataGridView1);
+            tabPage3.Controls.Add(szOfShoesRTB);
+            tabPage3.Controls.Add(label5);
+            tabPage3.Controls.Add(label4);
+            tabPage3.Controls.Add(szOfShoesCB);
+            tabPage3.Controls.Add(genderCB);
+            tabPage3.Location = new Point(4, 24);
+            tabPage3.Name = "tabPage3";
+            tabPage3.Padding = new Padding(3);
+            tabPage3.Size = new Size(758, 398);
+            tabPage3.TabIndex = 3;
+            tabPage3.Text = "鞋碼轉換";
+            tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // szOfShoesRTB
+            // 
+            szOfShoesRTB.Location = new Point(384, 31);
+            szOfShoesRTB.Name = "szOfShoesRTB";
+            szOfShoesRTB.Size = new Size(350, 125);
+            szOfShoesRTB.TabIndex = 4;
+            szOfShoesRTB.Text = "";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(6, 51);
+            label5.Name = "label5";
+            label5.Size = new Size(99, 15);
+            label5.TabIndex = 3;
+            label5.Text = "the size of shoes";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(56, 22);
+            label4.Name = "label4";
+            label4.Size = new Size(48, 15);
+            label4.TabIndex = 2;
+            label4.Text = "gender";
+            // 
+            // szOfShoesCB
+            // 
+            szOfShoesCB.FormattingEnabled = true;
+            szOfShoesCB.Location = new Point(120, 48);
+            szOfShoesCB.Name = "szOfShoesCB";
+            szOfShoesCB.Size = new Size(121, 23);
+            szOfShoesCB.TabIndex = 1;
+            szOfShoesCB.SelectedIndexChanged += szOfShoesCB_SelectedIndexChanged;
+            // 
+            // genderCB
+            // 
+            genderCB.FormattingEnabled = true;
+            genderCB.Items.AddRange(new object[] { "Male", "Female" });
+            genderCB.Location = new Point(120, 19);
+            genderCB.Name = "genderCB";
+            genderCB.Size = new Size(121, 23);
+            genderCB.TabIndex = 0;
+            genderCB.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(41, 103);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(279, 248);
+            dataGridView1.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -249,12 +340,16 @@
             Controls.Add(tabControl1);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             tabControl1.ResumeLayout(false);
             tabPage1.ResumeLayout(false);
             tabPage1.PerformLayout();
             avgWeekTPg.ResumeLayout(false);
             panel1.ResumeLayout(false);
             tabPage2.ResumeLayout(false);
+            tabPage3.ResumeLayout(false);
+            tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }
 
@@ -278,5 +373,13 @@
         private Button ltBTN;
         private ComboBox shapeSelectCB;
         private Label label3;
+        private Button callAvgFunBtn;
+        private TabPage tabPage3;
+        private ComboBox genderCB;
+        private ComboBox szOfShoesCB;
+        private Label label5;
+        private Label label4;
+        private RichTextBox szOfShoesRTB;
+        private DataGridView dataGridView1;
     }
 }
